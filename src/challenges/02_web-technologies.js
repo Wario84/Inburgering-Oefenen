@@ -33,68 +33,44 @@ export default {
 	category: `Web Technologies`,
 	challenges: [
 		{
-			title: `How many classes of HTTP status codes are there?`,
-			subtitle: `HTTP Status Codes`,
-			choices: [
-				`One`,
-				`Two`,
-				`Three`,
-				`Four`,
-				`Five`,
-			],
-			solution: `4`,
-			explanation: `There are five different classes of HTTP status codes,
-				represented by 100, 200, 300, 400, and 500. Each is used to specify
-				a different server response to a client during use of the Hypertext
-				Transfer Protocol (HTTP).
-			`
-		},
-		{
-			title: `___ is the HTTP status code for client errors, and ___ is the status code for server errors.`,
-			subtitle: `Understanding HTTP Status Codes`,
-			choices: [
-				`200, 300`,
-				`200, 400`,
-				`300, 500`,
-				`200, 500`,
-				`400, 500`,
-			],
-			solution: `4`,
-			explanation: `Any 400 status is used for client errors (unauthorized, bad request, not found, etc),
-			 and 500 status is used for servers errors (internal server error, bad gateway, etc.).`
-	  },
-		{
-			title: `Which HTTP status code is reserved for successful responses?`,
-			subtitle: `HTTP Success Status`,
-			choices: [
-			 `100`,
-			 `200`,
-			 `300`,
-			 `400`,
-			 `500`
+			title: `1. Wat is de gewoonte in Nederland als iemand is geslaagd voor het diploma op het voortgezet onderwijs?`,
+				choices: [
+				`De schooltas buiten hangen.`,
+				`De jas buiten hangen.`,
+				`Het diploma buiten hangen.`,
 			],
 			solution: `1`,
-			explanation: `The 200 status codes are reserved for client requests that are
-				received and successfully processed by a server.`
+			explanation: `.`
+		},
+		{
+			title: `2. U ziet een jongen met een bal. Hij schopt de bal tegen uw winkelraam. Het raam is kapot en uw spullen ook. U bent boos. Mag u de jongen slaan?`,
+			choices: [
+				`Nee, maar u pakt de jongen en trekt hem hard aan zijn arm.`,
+				`Nee, maar u pakt de bal en maakt de bal kapot.`,
+				`Nee, u vraagt aan de jongen hoe hij heet en waar hij woont. U raakt hem niet aan.`,
+			],
+			solution: `3`,
+			explanation: ``
 	  },
 		{
-			title: `What role does the Domain Name System play in resolving web traffic?`,
-			subtitle: `Understanding the Domain Name System`,
+			title: `3. In Nederland zijn heel veel politieke partijen. De partijen zijn rechts, links of middenpartijen. Welke combinatie is goed?`,
 			choices: [
-				`The DNS is responsible for resolving web domain names to the actual IP addresses
-					where the associated service is located.`,
-				`The DNS is responsible for breaking internet traffic into small packets to be sent
-					to web clients.`,
-				`The DNS system is responsible for verifying SSL security certificates.`,
-				`The DNS system plays an important role re-routing server traffic when a single
-					server becomes over-loaded.`
+			 `Het CDA = links, De PvdA = midden, De VVD = rechts.`,
+			 `Het CDA = midden, De PvdA = links, De VVD = rechts.`,
+			 `Het CDA = rechts, De PvdA = links, De VVD = midden.`,
 			],
-			solution: `0`,
-			explanation: `The Domain Name System maps domain names to the underlying IP addresses
-				which are responsible for actually serving web traffic. This allows web addresses to
-				be represented by a single, human-readable domain (e.g. freecodecamp.com), while behind
-				the scenes freeCodeCamp servers may exist at one or more IP addresses which are mapped
-				to the domain name by the DNS system when a user visits freecodecamp.com.`
+			solution: `2`,
+			explanation: ``
+	  },
+		{
+			title: `4. Hassan wil graag in een schoenwinkel werken. De chef zegt dat Nederlanders harder werken. Hij wil Hassan niet aannemen. Wat kan Hassan het beste doen?`,
+			choices: [
+				`Naar de politie gaan.`,
+				`Naar de Nationale Ombudsman gaan.`,
+				`aar het Anti Discriminatie Bureau gaan.`,
+			],
+			solution: `3`,
+			explanation: ``
 	  },
 		{
 			title: `What service to CDNs provide?`,
